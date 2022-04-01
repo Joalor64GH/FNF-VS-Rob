@@ -1,6 +1,6 @@
 # VS Rob! 
 The mod where Rob is the star for once!
-Runs on Psych Engine 0.5.2h.
+Runs on a heavily modded version of Psych Engine 0.5.2h.
 # Friday Night Funkin' - Psych Engine
 Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
 
