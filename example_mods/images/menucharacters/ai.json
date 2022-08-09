@@ -1,0 +1,11 @@
+{
+	
+	"image": "Menu_AI",
+	"position": [
+		0,
+		0
+	],
+	"scale": 1,
+	"idle_anim": "M AI Idle",
+	"confirm_anim": "M AI Idle"
+}

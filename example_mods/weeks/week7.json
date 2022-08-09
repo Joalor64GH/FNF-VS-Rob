@@ -12,10 +12,10 @@
 	],
 	"hiddenUntilUnlocked": false,
 	"hideFreeplay": false,
-	"weekBackground": "stage",
+	"weekBackground": "robislife",
 	"difficulties": "Normal",
 	"weekCharacters": [
-		"dad",
+		"ai",
 		"bf",
 		"gf"
 	],
