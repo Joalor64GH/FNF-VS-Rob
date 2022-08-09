@@ -36,7 +36,7 @@ class MainMenuState extends MusicBeatState
 		'story_mode',
 		'freeplay',
 		'credits',
-		#if !switch 'donate', #end
+		#if !switch 'website', #end
 		'options'
 	];
 
@@ -198,7 +198,7 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'donate')
+				if (optionShit[curSelected] == 'website')
 				{
 					CoolUtil.browserLoad('https://sites.google.com/view/joalor64official-net6-deez/home');
 				}
