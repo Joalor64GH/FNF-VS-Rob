@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bf",
-		"player2": "bambi_3d",
+		"player2": "rob",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -1180,11 +1180,11 @@
 		"events": [],
 		"player3": null,
 		"splashSkin": " ",
-		"song": "Satin Panties",
+		"song": "Hello Friend",
 		"arrowSkin": "NOTE_assets_3D",
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "church",
+		"stage": "sunny",
 		"speed": 2.2,
 		"bpm": 120
 	}

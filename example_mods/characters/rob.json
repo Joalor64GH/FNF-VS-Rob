@@ -57,12 +57,12 @@
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/bambi_3d",
+	"image": "characters/robot_lmao",
 	"position": [
 		-130,
 		-130
 	],
-	"healthicon": "bambi_3d",
+	"healthicon": "rob",
 	"flip_x": false,
 	"healthbar_colors": [
 		0,
