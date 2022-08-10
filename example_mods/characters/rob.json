@@ -8,7 +8,7 @@
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "DaveAngry Sing Note DOWN",
+			"name": "Robot Sing Note DOWN",
 			"indices": []
 		},
 		{
@@ -19,7 +19,7 @@
 			],
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "DaveAngry Sing Note LEFT",
+			"name": "Robot Sing Note LEFT",
 			"indices": []
 		},
 		{
@@ -30,7 +30,7 @@
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "DaveAngry Sing Note RIGHT",
+			"name": "Robot Sing Note RIGHT",
 			"indices": []
 		},
 		{
@@ -41,7 +41,7 @@
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "DaveAngry Sing Note UP",
+			"name": "Robot Sing Note UP",
 			"indices": []
 		},
 		{
@@ -52,7 +52,7 @@
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "DaveAngry idle dance",
+			"name": "Robot idle dance",
 			"indices": []
 		}
 	],
