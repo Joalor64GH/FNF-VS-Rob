@@ -36,7 +36,8 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		'extras',
+		'credits',
+		#if !switch 'website', #end
 		'options'
 	];
 
@@ -125,7 +126,7 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
-                var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, "VS Rob v" + robotVersion, 12);
+        var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, "VS Rob v" + robotVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
@@ -202,6 +203,12 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
+				if (optionShit[curSelected] == 'website')
+				{
+					CoolUtil.browserLoad('https://sites.google.com/view/joalor64official-net6-deez/home');
+				}
+				else
+				{
 					selectedSomethin = true;
 					FlxG.sound.play(Paths.sound('confirmMenu'));
 
@@ -239,8 +246,6 @@ class MainMenuState extends MusicBeatState
 										MusicBeatState.switchState(new AchievementsMenuState());
 									case 'credits':
 										MusicBeatState.switchState(new CreditsState());
-									case 'extras':
-										MusicBeatState.switchState(new ExtrasMenuState());
 									case 'options':
 										LoadingState.loadAndSwitchState(new options.OptionsState());
 								}
@@ -257,7 +262,6 @@ class MainMenuState extends MusicBeatState
 			}
 			#end
 		}
-	}
 
 		super.update(elapsed);
 
