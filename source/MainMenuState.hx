@@ -247,7 +247,6 @@ class MainMenuState extends MusicBeatState
 							});
 						}
 					});
-				}
 			}
 			#if desktop
 			else if (FlxG.keys.anyJustPressed(debugKeys))
