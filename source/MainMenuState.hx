@@ -36,8 +36,7 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		'credits',
-		#if !switch 'website', #end
+		'extras',
 		'options'
 	];
 
@@ -203,12 +202,6 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'website')
-				{
-					CoolUtil.browserLoad('https://sites.google.com/view/joalor64official-net6-deez/home');
-				}
-				else
-				{
 					selectedSomethin = true;
 					FlxG.sound.play(Paths.sound('confirmMenu'));
 
@@ -246,6 +239,8 @@ class MainMenuState extends MusicBeatState
 										MusicBeatState.switchState(new AchievementsMenuState());
 									case 'credits':
 										MusicBeatState.switchState(new CreditsState());
+									case 'extras':
+										MusicBeatState.switchState(new ExtrasMenuState());
 									case 'options':
 										LoadingState.loadAndSwitchState(new options.OptionsState());
 								}
